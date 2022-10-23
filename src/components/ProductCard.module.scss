@@ -1,0 +1,68 @@
+.card {
+    width: 360px;
+    height: 594px;
+    box-shadow: 10px 10px 35px rgba(190, 191, 183, 0.1);
+    background-color: #fff;
+    padding: 15px 24px 42px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+    .imgWrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        .productImg {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 66px;
+            height: 229px;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+    }
+    
+    .bottomBox {
+        display: flex;
+        flex-direction: column;
+        row-gap: 28px;
+        .textBox {
+            display: flex;
+            flex-direction: column;
+            row-gap: 16px;
+            .green {
+                color: green;
+            }
+            .orange {
+                color: orange;
+            }
+            .red {
+                color: red;
+            }
+           
+        }
+    }
+    .collectProduct {
+        display: flex;
+        flex-direction: column;
+        row-gap: 24px;
+        .buttons {
+            display: flex;
+            column-gap: 20px;
+            justify-content: space-between;
+            align-items: center;
+            .extraClass {
+                padding: 0 14px;
+                font-size: 14px;
+                line-height: 32px;
+                font-weight: 500;
+                // background-color: red;
+            }
+        }
+    }
+
+}
